@@ -1,0 +1,92 @@
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    gap: 2.4rem;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.search{
+    padding-right: 2.4rem;
+}
+main{
+    display: flex;
+    justify-items: center;
+    margin-top:6rem ;
+}
+.left{
+    flex-basis: 53%;
+    margin-left: 8rem;
+}
+.left h3{
+    color: darkgrey;
+    text-transform: uppercase;
+}
+.left span::after{
+    content: "";
+    height: 0.1rem;
+    width: 5rem;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    top: 12rem;
+    left: 24rem;
+   
+}
+.left h1{
+    font-size: 3.3rem;
+}
+.left p{
+    font-size: 1.2rem;
+}
+.left img{
+    margin: 1rem;
+}
+nav span {
+    font-size: 18px;
+    color: #02bdc4;
+}
+
+nav span::after{
+    content: "";
+    height: 0.1rem;
+    width: 5rem;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    top: 2rem;
+    left: 32rem;
+}
+article span::after{
+    content: "";
+    height: 31.1rem;
+    width: 2.1px;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    top: 11rem;
+    left: 13rem;
+
+}
+article h1{
+    transform: rotate(360deg);
+    padding-bottom: 4.7rem;
+}
+
+section span{
+    content: "";
+    height: 32.1rem;
+    width: 2.1px;
+    background: rgb(0, 0, 0);
+    position: fixed;
+    top: 12rem;
+    left: 60rem;
+
+}
